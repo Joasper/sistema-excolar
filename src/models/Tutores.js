@@ -1,11 +1,6 @@
 import { Schema, model, models } from "mongoose";
 
 const TutoresSchema = new Schema({
-  Estudiante: {
-    type: Schema.Types.ObjectId,
-    ref: "Estudiante",
-    required: true,
-  },
   Cedula: {
     type: String,
     required: true,
