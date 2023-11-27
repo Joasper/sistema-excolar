@@ -6,7 +6,6 @@ const TutoresSchema = new Schema({
     required: true,
     trim: true,
     maxlength: 11,
-    unique: true,
   },
   Nombre: {
     type: String,
